@@ -9,11 +9,12 @@ public class EmployeeWageComputation {
         System.out.println("Welcome to Employee Wage Computation Program using OOP");
         int WAGE_PER_HR = 20;
         int MAX_WORKING_DAYS = 20;
+        int MAX_HRS_IN_MONTH = 100;
         int TOTAL_WORKING_DAYS = 0;
         int TOTAL_EMP_HRS = 0;
         int EMP_HRS;
         int TOTAL_SALARY;
-        while (TOTAL_WORKING_DAYS < MAX_WORKING_DAYS){
+        while (TOTAL_WORKING_DAYS < MAX_WORKING_DAYS && TOTAL_EMP_HRS < MAX_HRS_IN_MONTH){
             Random num = new Random();
             int randomCheck = num.nextInt(3);
             switch (randomCheck) {
