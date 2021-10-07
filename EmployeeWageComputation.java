@@ -7,7 +7,7 @@ public class EmployeeWageComputation {
     public static void main(String[] args) {
 
         System.out.println("Welcome to Employee Wage Computation Program using OOP");
-        int WAGE_PER_HR = 20;
+        int WAGE_PER_HR =20;
         int MAX_WORKING_DAYS = 20;
         int MAX_HRS_IN_MONTH = 100;
         int TOTAL_WORKING_DAYS = 0;
