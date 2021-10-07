@@ -12,7 +12,7 @@ public class EmployeeWageComputation {
         int MAX_HRS_IN_MONTH = 100;
         int TOTAL_WORKING_DAYS = 0;
         int TOTAL_EMP_HRS = 0;
-        int EMP_HRS;
+        int EMP_HRS ;
         int TOTAL_SALARY;
         while (TOTAL_WORKING_DAYS < MAX_WORKING_DAYS && TOTAL_EMP_HRS < MAX_HRS_IN_MONTH){
             Random num = new Random();
