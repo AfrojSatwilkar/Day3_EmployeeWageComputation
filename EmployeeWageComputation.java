@@ -1,12 +1,11 @@
 package com.company;
-
 import java.util.Random;
-
 public class EmployeeWageComputation {
 
     public static void main(String[] args) {
 
         System.out.println("Welcome to Employee Wage Computation Program using OOP");
+
         int WAGE_PER_HR = 20;
         int MAX_WORKING_DAYS = 20;
         int MAX_HRS_IN_MONTH = 100;
@@ -27,6 +26,5 @@ public class EmployeeWageComputation {
         }
         TOTAL_SALARY = WAGE_PER_HR * TOTAL_EMP_HRS;
         System.out.println("Total Salary : "+TOTAL_SALARY);
-
     }
 }
